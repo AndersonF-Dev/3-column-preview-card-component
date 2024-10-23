@@ -9,13 +9,13 @@
         display: block;
         flex-direction: column;
         gap: 20px;
-        width: 370px;
+        /* width: 370px; */
         margin-top: 20%;
         margin-bottom: 10%;
     }
 
     .card-component-sedans {
-        width: 350px;
+        width: 340px;
         border-top-right-radius: 20px;
         border-bottom-left-radius: 0;
     }
@@ -30,7 +30,7 @@
     }
 
     .card-component-suvs {
-        width: 350px;
+        width: 340px;
         
     }
 
@@ -41,7 +41,7 @@
         font-size: 17px;
     }
     .card-component-luxury {
-        width: 350px;
+        width: 340px;
         border-top-right-radius: 0;
         border-bottom-left-radius: 20px;
     }
