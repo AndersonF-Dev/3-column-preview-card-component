@@ -8,8 +8,7 @@
         height: 100vh;
         display: block;
         flex-direction: column;
-        gap: 20px;
-        /* width: 370px; */
+
         margin-top: 20%;
         margin-bottom: 10%;
     }
