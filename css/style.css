@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&display=swap');
+
+body {
+    /* font-family: "Lexend Deca", sans-serif; */
+    font-family: "Big Shoulders Display", sans-serif;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card-conteiner{
+    /* display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 625px; */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* width: 1155px; */
+}
+
+
+.card-component-sedans {
+    max-width: 385px;
+    height: 625px;
+    background-color: hsl(31, 77%, 52%);
+    display: flex;
+    flex-direction: column;
+    color: hsla(0, 0%, 100%, 0.75);
+
+    padding: 60px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    
+}
+
+
+.card-component-sedans img {
+    width: 83px;
+}
+
+.card-component-sedans h1 {
+    margin-top: 42px;
+    font-size: 51px;
+    text-transform: uppercase;;
+}
+
+.card-component-sedans p {
+    text-wrap: pretty;
+    width: 281px;
+    font-size: 20px;
+    line-height: 31px;
+    margin-top: 33px;
+    font-family: "Lexend Deca", sans-serif;
+}
+
+
+.card-component-sedans a{
+    background-color: hsl(0, 0%, 95%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 21px;
+    text-decoration: none;
+    color: hsl(31, 77%, 52%);
+    text-align: center;
+    width: 181px;
+    height: 50px;
+    margin-top: 110px;
+    border: none;
+    padding: 15px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.card-component-sedans a:hover {
+    background: none;
+    color:  hsl(0, 0%, 95%);
+    font-weight: 700;
+    border: 3px solid  hsl(0, 0%, 95%);
+
+}
+.card-component-suvs {
+    max-width: 385px;
+    height: 625px;
+    background-color: hsl(184, 100%, 22%);
+    color: hsla(0, 0%, 100%, 0.75);
+    display: flex;
+    flex-direction: column;
+    
+
+    padding: 60px;
+}
+
+.card-component-suvs img {
+    width: 83px;
+}
+
+.card-component-suvs h1 {
+    margin-top: 42px;
+    font-size: 51px;
+    text-transform: uppercase;;
+}
+
+.card-component-suvs p {
+    text-wrap: pretty;
+    padding: 1px;
+    font-size: 20px;
+    line-height: 31px;
+    margin-top: 33px;
+    font-family: "Lexend Deca", sans-serif;
+}
+
+.card-component-suvs a{
+    background-color: hsl(0, 0%, 95%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 21px;
+    text-decoration: none;
+    color: hsl(184, 100%, 22%);
+    width: 181px;
+    height: 50px;
+    margin-top: 110px;
+    border: none;
+    padding: 15px 0;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    transition: 0.5s;
+}
+
+.card-component-suvs a:hover {
+    background: none;
+    color:  hsl(0, 0%, 95%);
+    text-align: center;
+    font-weight: 700;
+    border: 3px solid  hsl(0, 0%, 95%);
+}
+
+.card-component-luxury {
+    max-width: 385px;
+    height: 625px;
+    background-color: hsl(179, 100%, 13%);
+    color: hsla(0, 0%, 100%, 0.75);
+    display: flex;
+    flex-direction: column;
+
+    padding: 60px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.card-component-luxury img {
+    width: 83px;
+}
+
+.card-component-luxury h1 {
+    margin-top: 42px;
+    font-size: 51px;
+    text-transform: uppercase;;
+}
+
+.card-component-luxury p {
+    text-wrap: pretty;
+    font-size: 20px;
+    line-height: 31px;
+    margin-top: 33px;
+    font-family: "Lexend Deca", sans-serif;
+}
+
+.card-component-luxury a{
+    background-color: hsl(0, 0%, 95%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 21px;
+    text-decoration: none;
+    color: hsl(179, 100%, 13%);
+    width: 181px;
+    height: 50px;
+    margin-top: 110px;
+    border: none;
+    padding: 15px 0;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    transition: 0.5s;
+}
+
+.card-component-luxury a:hover {
+    background: none;
+    color:  hsl(0, 0%, 95%);
+    text-align: center;
+    font-weight: 700;
+    border: 3px solid  hsl(0, 0%, 95%);
+} 
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
