@@ -2,18 +2,42 @@
     .card-conteiner {
         height: 100vh;
         display: block;
+        flex-direction: column;
         width: 385px;
         margin-top: 20%;
         margin-bottom: 10%;
     }
 
     .card-component-sedans {
+        width: 370px;
         border-top-right-radius: 20px;
         border-bottom-left-radius: 0;
     }
+
+    .card-component-sedans p {
+        font-size: 18px;
+    }
+
+    .card-component-suvs {
+        width: 370px;
+        
+    }
+
+    .card-component-suvs p {
+        font-size: 18px;
+    }
     .card-component-luxury {
+        width: 370px;
         border-top-right-radius: 0;
         border-bottom-left-radius: 20px;
+    }
+
+    .card-component-luxury p {
+        font-size: 18px;
+    }
+
+    .attribution  {
+        display: none;
     }
 
 }
