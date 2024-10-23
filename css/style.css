@@ -3,7 +3,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&display=swap');
 
 body {
-    /* font-family: "Lexend Deca", sans-serif; */
     font-family: "Big Shoulders Display", sans-serif;
     height: 100vh;
     display: flex;
@@ -13,24 +12,22 @@ body {
 }
 
 .card-conteiner{
-    /* display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: 625px; */
-
     display: flex;
     align-items: center;
     justify-content: center;
-    /* width: 1155px; */
 }
 
 
 .card-component-sedans {
-    max-width: 385px;
-    height: 625px;
+    max-width: 390px;
+    height: 560px;
+
     background-color: hsl(31, 77%, 52%);
+    color: hsla(0, 0%, 100%, 0.75);
+
     display: flex;
     flex-direction: column;
-    color: hsla(0, 0%, 100%, 0.75);
+    
 
     padding: 60px;
     border-top-left-radius: 20px;
@@ -50,12 +47,15 @@ body {
 }
 
 .card-component-sedans p {
-    text-wrap: pretty;
     width: 281px;
+
+    text-wrap: pretty;
     font-size: 20px;
     line-height: 31px;
-    margin-top: 33px;
     font-family: "Lexend Deca", sans-serif;
+
+    margin-top: 33px;
+    
 }
 
 
@@ -64,16 +64,20 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+
     font-weight: 700;
     font-size: 21px;
     text-decoration: none;
     color: hsl(31, 77%, 52%);
     text-align: center;
+
     width: 181px;
     height: 50px;
-    margin-top: 110px;
+
+    margin-top: 70px;
     border: none;
     padding: 15px;
+
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
     border-top-right-radius: 25px;
@@ -90,14 +94,15 @@ body {
 
 }
 .card-component-suvs {
-    max-width: 385px;
-    height: 625px;
+    max-width: 390px;
+    height: 560px;
+
     background-color: hsl(184, 100%, 22%);
     color: hsla(0, 0%, 100%, 0.75);
+
     display: flex;
     flex-direction: column;
     
-
     padding: 60px;
 }
 
@@ -125,13 +130,16 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+
     font-weight: 700;
     font-size: 21px;
     text-decoration: none;
     color: hsl(184, 100%, 22%);
+
     width: 181px;
     height: 50px;
-    margin-top: 110px;
+
+    margin-top: 70px;
     border: none;
     padding: 15px 0;
     border-top-left-radius: 25px;
@@ -150,10 +158,12 @@ body {
 }
 
 .card-component-luxury {
-    max-width: 385px;
-    height: 625px;
+    max-width: 390px;
+    height: 560px;
+
     background-color: hsl(179, 100%, 13%);
     color: hsla(0, 0%, 100%, 0.75);
+
     display: flex;
     flex-direction: column;
 
@@ -176,8 +186,10 @@ body {
     text-wrap: pretty;
     font-size: 20px;
     line-height: 31px;
-    margin-top: 33px;
     font-family: "Lexend Deca", sans-serif;
+
+    margin-top: 33px;
+    
 }
 
 .card-component-luxury a{
@@ -185,13 +197,16 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+
     font-weight: 700;
     font-size: 21px;
     text-decoration: none;
     color: hsl(179, 100%, 13%);
+
     width: 181px;
     height: 50px;
-    margin-top: 110px;
+
+    margin-top: 70px;
     border: none;
     padding: 15px 0;
     border-top-left-radius: 25px;
